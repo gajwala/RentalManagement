@@ -1,0 +1,13 @@
+.Dropdown-root{
+    width: 200% !important;
+}
+.Dropdown-control{
+    background: black !important;
+    border: none !important;
+    color: white !important;
+}
+@media only screen and (max-width: 600px) {
+.Dropdown-root{
+    width: 100% !important;
+  }
+}
