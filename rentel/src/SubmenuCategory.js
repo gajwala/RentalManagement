@@ -6,7 +6,7 @@ function SubmenuCategory({subMenu}) {
       try {
         return (
             <Fragment>
-                  <img src={require(`./assets/category/subcategory/${item.image}`)} alt={item.image} />
+                  <img src={require(`./assets/category/${item.image}`)} alt={item.image} />
                 <div className="CategoryHeader">
                     <MatButton>{item.name}</MatButton>
                     <p><i className="arrow right"></i></p>
